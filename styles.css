@@ -53,3 +53,22 @@ li {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+/* ボタンスタイル */
+.button {
+    margin-top: 30px; /* 上からの位置調整 */
+    margin-right: 20px; /* 右からの位置調整 */
+    padding: 10px 20px;
+    background-color: #8a2be2; /* パープル色 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    float: right; /* 右寄せ */
+}
+
+.button:hover {
+    background-color: #6d1d9b; /* マウスオーバー時の色変更 */
+}
