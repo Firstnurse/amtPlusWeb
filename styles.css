@@ -28,6 +28,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -67,9 +68,9 @@ li {
 
 /* ボタンスタイル */
 .button {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* 上からの位置調整 */
-    margin-right: 20px;
+    /* margin-right: 20px; */
     /* 右からの位置調整 */
     padding: 10px 20px;
     background-color: #8a2be2;
@@ -80,11 +81,40 @@ li {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-    float: right;
-    /* 右寄せ */
+    /* float: right; */
+
 }
 
 .button:hover {
     background-color: #6d1d9b;
     /* マウスオーバー時の色変更 */
+}
+
+/* メニュー項目のスタイル */
+#navigate ul li {
+    /* メニュー項目の間隔を調整 */
+
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#navigate ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* メニュー項目のテキストカラー */
+    background-color: #8a2be2;
+    /* メニューボタンの背景色 */
+    padding: 10px 20px;
+    /* メニューボタンのパディング */
+    border: 2px solid #e0e0e0;
+    /* メニューボタンのボーダー */
+    border-radius: 5px;
+    /* メニューボタンの角丸 */
+}
+
+#navigate ul li a:hover {
+    background-color: #8a2be2;
+    /* ホバーエフェクトの背景色 */
+    border: 2px solid #6d1d9b;
+    /* ホバーエフェクトのボーダー */
 }

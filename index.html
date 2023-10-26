@@ -13,11 +13,15 @@
         <header>
             <h1>スケジュール自動取り込みサービス更新情報</h1>
             <p>メンテナンス情報や最新のアプリケーション更新情報をこちらで確認できます.</p>
-
         </header>
 
-        <!-- マニュアルへのリンクを右寄せのボタンで表示 -->
-        <a href="spec/spec.html" class="button">マニュアル</a>
+        <nav id="navigate">
+            <ul>
+                <li><a href="spec/spec.html">マニュアル</a></li>
+                <li><a href="#">問い合わせ</a></li>
+                <li><a href="#">在籍情報</a></li>
+            </ul>
+        </nav>
 
         <section id="maintenance">
             <h2>メンテナンス情報</h2>
@@ -38,6 +42,23 @@
                 <li>2023.9.19</li>
                 <p>新機能の追加、軽微なバグ修正など.</p>
             </ul>
+        </section>
+
+        <!-- ここから問い合わせフォーム -->
+        <section id="contact">
+            <h2>お問い合わせフォーム</h2>
+            <form action="送信先のURLを入力" method="post">
+                <label for="お名前">お名前：</label>
+                <input type="text" id="お名前" name="お名前" required><br><br>
+
+                <label for="メールアドレス">メールアドレス：</label>
+                <input type="email" id="メールアドレス" name="メールアドレス" required><br><br>
+
+                <label for="お問い合わせ内容">お問い合わせ内容：</label>
+                <textarea id="お問い合わせ内容" name="お問い合わせ内容" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="送信">
+            </form>
         </section>
     </div>
 </body>
