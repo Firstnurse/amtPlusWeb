@@ -46,22 +46,22 @@ h2 {
     color: #8a2be2;
     /* パープル色 */
     border-bottom: 2px double #8a2be2;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     /* パープル色 */
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
 
 }
 
 p {
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 50px;
 
 }
 
