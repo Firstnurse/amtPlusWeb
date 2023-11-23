@@ -1,0 +1,146 @@
+/* Reset CSS for basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #8a2be2;
+    /* パープル色 */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #8a2be2;
+    /* パープル色 */
+    border-bottom: 2px double #8a2be2;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #000000;
+    /* パープル色 */
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* ボタンスタイル */
+.button {
+    /* margin-top: 30px; */
+    /* 上からの位置調整 */
+    /* margin-right: 20px; */
+    /* 右からの位置調整 */
+    padding: 10px 20px;
+    background-color: #8a2be2;
+    /* パープル色 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    /* float: right; */
+
+}
+
+.button:hover {
+    background-color: #6d1d9b;
+    /* マウスオーバー時の色変更 */
+}
+
+/* メニュー項目のスタイル */
+#navigate ul li {
+    /* メニュー項目の間隔を調整 */
+
+    margin-right: 5px;
+    display: inline-block;
+}
+
+#navigate ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* メニュー項目のテキストカラー */
+    background-color: #8a2be2;
+    /* メニューボタンの背景色 */
+    padding: 10px 20px;
+    /* メニューボタンのパディング */
+    border: 2px solid #e0e0e0;
+    /* メニューボタンのボーダー */
+    border-radius: 5px;
+    /* メニューボタンの角丸 */
+}
+
+#navigate ul li a:hover {
+    background-color: #8a2be2;
+    /* ホバーエフェクトの背景色 */
+    border: 2px solid #6d1d9b;
+    /* ホバーエフェクトのボーダー */
+}
+
+footer {
+    background-color: #8a2be2;
+    /* パープル色 */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0px;
+}
