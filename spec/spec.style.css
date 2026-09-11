@@ -66,3 +66,30 @@ img {
 .mark {
     background: linear-gradient(transparent 60%, #f6ff5f 60%);
 }
+/* ===== 2026-09 マニュアル最新化: FNsystem デザインガイドライン準拠の部品 ===== */
+body { font-family: "BIZ UDPGothic", "BIZ UDPゴシック", "Meiryo", sans-serif; color: #1F252B; }
+h1, h2, h3, h4 { color: #6B5091; }
+h2 { border-bottom: 3px solid #9E7DB8; }
+h3 { border-bottom: 1px solid #9E7DB8; }
+h3.toc-title { margin-top: 30px; }
+.ver { color: #64707D; font-size: 15px; text-align: center; margin-top: -10px; }
+.note { color: #64707D; font-size: 15px; }
+ul.toc { line-height: 1.8; }
+ul.toc ul { margin-left: 24px; }
+ul.toc a, .co a { color: #6B5091; }
+strong { color: #6B5091; }
+ul, ol { padding-left: 28px; margin: 10px 0 18px 0; }
+li { line-height: 1.6; font-size: 18px; }
+.co { border-left: 8px solid; border-radius: 8px; padding: 12px 18px; margin: 18px 0; font-size: 17px; line-height: 1.6; }
+.co .t { font-weight: bold; margin-bottom: 4px; }
+.co.hint { border-color: #1976D2; background: #E8F1FB; } .co.hint .t { color: #1976D2; }
+.co.warn { border-color: #ED6C02; background: #FDF0E6; } .co.warn .t { color: #ED6C02; }
+.co.danger { border-color: #D32F2F; background: #FBEAEA; } .co.danger .t { color: #D32F2F; }
+.co.note { border-color: #616161; background: #F5F6F7; } .co.note .t { color: #616161; }
+figure { margin: 18px 0 26px 0; text-align: center; }
+figure img { max-width: 100%; border: 1px solid #E0E0E0; background: #fff; }
+figcaption { color: #64707D; font-size: 14px; margin-top: 6px; }
+table.tbl { border-collapse: collapse; width: 100%; margin: 14px 0 22px 0; font-size: 16px; }
+table.tbl th { background: #6B5091; color: #fff; font-weight: bold; text-align: left; padding: 8px 12px; border: 1px solid #E0E0E0; }
+table.tbl td { padding: 8px 12px; border: 1px solid #E0E0E0; vertical-align: top; line-height: 1.5; }
+table.tbl tbody tr:nth-child(even) td { background: #F5F1F9; }
